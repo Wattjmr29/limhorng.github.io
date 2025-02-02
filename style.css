@@ -1,0 +1,49 @@
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-size: 24px;
+    color: #ff4d6d;
+}
+.button{
+    margin-top: 20px;
+}
+button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#yesBtn{
+    background-color: #ff4d6d;
+    color: white;
+}
+#noBtn{
+    background-color: #ff4d6d;
+    color: white;
+    position: absolute; /* Allows the button to move freely */
+}
+.hidden{
+    display: none; /* Hides the message initially */
+}
+#message{
+    font-size: 20px;
+    color: #ff4d6d;
+    margin-top: 20px;
+}
